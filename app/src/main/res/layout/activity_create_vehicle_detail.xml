@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CreateVehicleDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@id/tb_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/ToolbarPopupTheme"
+            app:theme="@style/toolbarTheme"
+            app:title="车源录入"
+            app:titleTextColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="车身颜色" />
+
+            <TextView
+                android:id="@+id/color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择车身颜色"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="变速箱" />
+
+            <TextView
+                android:id="@+id/gearbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择变速箱"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="排放标准" />
+
+            <TextView
+                android:id="@+id/emission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择排放标准"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="车况" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择车况"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="来源渠道" />
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择来源渠道"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="车源类型" />
+
+            <TextView
+                android:id="@+id/vehicleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择车源类型"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="上牌日期" />
+
+            <TextView
+                android:id="@+id/registerDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择上牌日期"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="出厂日期" />
+
+            <TextView
+                android:id="@+id/factoryDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableRight="@drawable/right_picker"
+                android:gravity="center_vertical|right"
+                android:hint="请选择出厂日期"
+                android:maxLines="1"
+                android:onClick="choose"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/back"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt_shape_white"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="finish"
+        android:padding="3dp"
+        android:text="上一步"
+        android:textColor="@color/tl"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/save"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bt_shape"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="setDataToCache"
+        android:padding="3dp"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

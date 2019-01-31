@@ -1,0 +1,1034 @@
+<resources>
+    <string name="app_name">车源管家</string>
+    <string name="hot_brands">
+      [
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/34.png\",
+        \"name\": \"大众\",
+        \"id\": 34
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/45.png\",
+        \"name\": \"丰田\",
+        \"id\": 45
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/48.png\",
+        \"name\": \"福特\",
+        \"id\": 48
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/153.png\",
+        \"name\": \"现代\",
+        \"id\": 153
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/20.png\",
+        \"name\": \"本田\",
+        \"id\": 20
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/9.png\",
+        \"name\": \"宝马\",
+        \"id\": 9
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/24.png\",
+        \"name\": \"别克\",
+        \"id\": 24
+      },
+
+        {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/150.png\",
+        \"name\": \"五菱汽车\",
+        \"id\": 150
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/155.png\",
+        \"name\": \"雪佛兰\",
+        \"id\": 155
+      },
+      {
+        \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/125.png\",
+        \"name\": \"日产\",
+        \"id\": 125
+      }
+
+    ]
+    </string>
+    <string name="brands">
+        [
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/34.png\",
+    \"name\": \"大众\",
+    \"id\": 34
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/45.png\",
+    \"name\": \"丰田\",
+    \"id\": 45
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/48.png\",
+    \"name\": \"福特\",
+    \"id\": 48
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/90.png\",
+    \"name\": \"克莱斯勒\",
+    \"id\": 90
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/97.png\",
+    \"name\": \"雷诺\",
+    \"id\": 97
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/44.png\",
+    \"name\": \"菲亚特\",
+    \"id\": 44
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/153.png\",
+    \"name\": \"现代\",
+    \"id\": 153
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/23.png\",
+    \"name\": \"标致\",
+    \"id\": 23
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/20.png\",
+    \"name\": \"本田\",
+    \"id\": 20
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/9.png\",
+    \"name\": \"宝马\",
+    \"id\": 9
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/126.png\",
+    \"name\": \"荣威\",
+    \"id\": 126
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/108.png\",
+    \"name\": \"名爵\",
+    \"id\": 108
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/165.png\",
+    \"name\": \"中华\",
+    \"id\": 165
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/55.png\",
+    \"name\": \"哈飞\",
+    \"id\": 55
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/71.png\",
+    \"name\": \"吉利汽车\",
+    \"id\": 71
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/121.png\",
+    \"name\": \"奇瑞\",
+    \"id\": 121
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/12.png\",
+    \"name\": \"北京\",
+    \"id\": 12
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/36.png\",
+    \"name\": \"东风\",
+    \"id\": 36
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/6.png\",
+    \"name\": \"奥迪\",
+    \"id\": 6
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/3.png\",
+    \"name\": \"阿尔法・罗密欧\",
+    \"id\": 3
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/4.png\",
+    \"name\": \"阿斯顿・马丁\",
+    \"id\": 4
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/18.png\",
+    \"name\": \"奔驰\",
+    \"id\": 18
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/26.png\",
+    \"name\": \"布加迪\",
+    \"id\": 26
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/24.png\",
+    \"name\": \"别克\",
+    \"id\": 24
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/25.png\",
+    \"name\": \"宾利\",
+    \"id\": 25
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/11.png\",
+    \"name\": \"保时捷\",
+    \"id\": 11
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/35.png\",
+    \"name\": \"道奇\",
+    \"id\": 35
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/43.png\",
+    \"name\": \"法拉利\",
+    \"id\": 43
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/60.png\",
+    \"name\": \"悍马\",
+    \"id\": 60
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/76.png\",
+    \"name\": \"捷豹\",
+    \"id\": 76
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/129.png\",
+    \"name\": \"smart\",
+    \"id\": 129
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/70.png\",
+    \"name\": \"Jeep\",
+    \"id\": 70
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/86.png\",
+    \"name\": \"凯迪拉克\",
+    \"id\": 86
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/92.png\",
+    \"name\": \"兰博基尼\",
+    \"id\": 92
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/106.png\",
+    \"name\": \"路虎\",
+    \"id\": 106
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/107.png\",
+    \"name\": \"路特斯\",
+    \"id\": 107
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/102.png\",
+    \"name\": \"林肯\",
+    \"id\": 102
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/96.png\",
+    \"name\": \"雷克萨斯\",
+    \"id\": 96
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/103.png\",
+    \"name\": \"铃木\",
+    \"id\": 103
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/94.png\",
+    \"name\": \"劳斯莱斯\",
+    \"id\": 94
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/112.png\",
+    \"name\": \"迈巴赫\",
+    \"id\": 112
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/109.png\",
+    \"name\": \"MINI\",
+    \"id\": 109
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/111.png\",
+    \"name\": \"玛莎拉蒂\",
+    \"id\": 111
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/110.png\",
+    \"name\": \"马自达\",
+    \"id\": 110
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/118.png\",
+    \"name\": \"欧宝\",
+    \"id\": 118
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/117.png\",
+    \"name\": \"讴歌\",
+    \"id\": 117
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/120.png\",
+    \"name\": \"帕加尼\",
+    \"id\": 120
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/123.png\",
+    \"name\": \"起亚\",
+    \"id\": 123
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/125.png\",
+    \"name\": \"日产\",
+    \"id\": 125
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/130.png\",
+    \"name\": \"萨博\",
+    \"id\": 130
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/139.png\",
+    \"name\": \"斯巴鲁\",
+    \"id\": 139
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/135.png\",
+    \"name\": \"世爵\",
+    \"id\": 135
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/141.png\",
+    \"name\": \"斯柯达\",
+    \"id\": 141
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/132.png\",
+    \"name\": \"三菱\",
+    \"id\": 132
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/137.png\",
+    \"name\": \"双龙\",
+    \"id\": 137
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/149.png\",
+    \"name\": \"沃尔沃\",
+    \"id\": 149
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/155.png\",
+    \"name\": \"雪佛兰\",
+    \"id\": 155
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/156.png\",
+    \"name\": \"雪铁龙\",
+    \"id\": 156
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/160.png\",
+    \"name\": \"英菲尼迪\",
+    \"id\": 160
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/166.png\",
+    \"name\": \"中兴\",
+    \"id\": 166
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/22.png\",
+    \"name\": \"比亚迪\",
+    \"id\": 22
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/28.png\",
+    \"name\": \"长安\",
+    \"id\": 28
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/30.png\",
+    \"name\": \"长城\",
+    \"id\": 30
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/101.png\",
+    \"name\": \"猎豹汽车\",
+    \"id\": 101
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/27.png\",
+    \"name\": \"北汽昌河\",
+    \"id\": 27
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/99.png\",
+    \"name\": \"力帆汽车\",
+    \"id\": 99
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/42.png\",
+    \"name\": \"东南\",
+    \"id\": 42
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/53.png\",
+    \"name\": \"广汽传祺\",
+    \"id\": 53
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/77.png\",
+    \"name\": \"金杯\",
+    \"id\": 77
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/72.png\",
+    \"name\": \"江淮\",
+    \"id\": 72
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/65.png\",
+    \"name\": \"华普\",
+    \"id\": 65
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/58.png\",
+    \"name\": \"海马\",
+    \"id\": 58
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/67.png\",
+    \"name\": \"华泰\",
+    \"id\": 67
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/105.png\",
+    \"name\": \"陆风\",
+    \"id\": 105
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/100.png\",
+    \"name\": \"莲花汽车\",
+    \"id\": 100
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/136.png\",
+    \"name\": \"双环\",
+    \"id\": 136
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/62.png\",
+    \"name\": \"红旗\",
+    \"id\": 62
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/33.png\",
+    \"name\": \"大发\",
+    \"id\": 33
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/161.png\",
+    \"name\": \"永源\",
+    \"id\": 161
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/167.png\",
+    \"name\": \"众泰\",
+    \"id\": 167
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/19.png\",
+    \"name\": \"奔腾\",
+    \"id\": 19
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/49.png\",
+    \"name\": \"福田\",
+    \"id\": 49
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/69.png\",
+    \"name\": \"黄海\",
+    \"id\": 69
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/152.png\",
+    \"name\": \"西雅特\",
+    \"id\": 152
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/147.png\",
+    \"name\": \"威兹曼\",
+    \"id\": 147
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/89.png\",
+    \"name\": \"科尼赛克\",
+    \"id\": 89
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/85.png\",
+    \"name\": \"开瑞\",
+    \"id\": 85
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/146.png\",
+    \"name\": \"威麟\",
+    \"id\": 146
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/128.png\",
+    \"name\": \"瑞麒\",
+    \"id\": 128
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/54.png\",
+    \"name\": \"广汽吉奥\",
+    \"id\": 54
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/81.png\",
+    \"name\": \"KTM\",
+    \"id\": 81
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/158.png\",
+    \"name\": \"一汽\",
+    \"id\": 158
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/157.png\",
+    \"name\": \"野马汽车\",
+    \"id\": 157
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/50.png\",
+    \"name\": \"GMC\",
+    \"id\": 50
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/39.png\",
+    \"name\": \"东风风神\",
+    \"id\": 39
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/150.png\",
+    \"name\": \"五菱汽车\",
+    \"id\": 150
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/52.png\",
+    \"name\": \"光冈\",
+    \"id\": 52
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/1.png\",
+    \"name\": \"AC Schnitzer\",
+    \"id\": 1
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/93.png\",
+    \"name\": \"Lorinser\",
+    \"id\": 93
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/73.png\",
+    \"name\": \"江铃\",
+    \"id\": 73
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/8.png\",
+    \"name\": \"宝骏\",
+    \"id\": 8
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/122.png\",
+    \"name\": \"启辰\",
+    \"id\": 122
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/98.png\",
+    \"name\": \"理念\",
+    \"id\": 98
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/113.png\",
+    \"name\": \"迈凯伦\",
+    \"id\": 113
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/115.png\",
+    \"name\": \"纳智捷\",
+    \"id\": 115
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/144.png\",
+    \"name\": \"特斯拉\",
+    \"id\": 144
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/7.png\",
+    \"name\": \"巴博斯\",
+    \"id\": 7
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/46.png\",
+    \"name\": \"福迪\",
+    \"id\": 46
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/41.png\",
+    \"name\": \"东风小康\",
+    \"id\": 41
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/15.png\",
+    \"name\": \"北汽威旺\",
+    \"id\": 15
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/159.png\",
+    \"name\": \"依维柯\",
+    \"id\": 159
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/78.png\",
+    \"name\": \"金龙\",
+    \"id\": 78
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/119.png\",
+    \"name\": \"欧朗\",
+    \"id\": 119
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/133.png\",
+    \"name\": \"陕汽通家\",
+    \"id\": 133
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/57.png\",
+    \"name\": \"海格\",
+    \"id\": 57
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/80.png\",
+    \"name\": \"九龙\",
+    \"id\": 80
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/51.png\",
+    \"name\": \"观致\",
+    \"id\": 51
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/17.png\",
+    \"name\": \"北汽制造\",
+    \"id\": 17
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/134.png\",
+    \"name\": \"上汽大通\",
+    \"id\": 134
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/82.png\",
+    \"name\": \"卡尔森\",
+    \"id\": 82
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/145.png\",
+    \"name\": \"腾势\",
+    \"id\": 145
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/138.png\",
+    \"name\": \"思铭\",
+    \"id\": 138
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/29.png\",
+    \"name\": \"长安欧尚\",
+    \"id\": 29
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/61.png\",
+    \"name\": \"恒天\",
+    \"id\": 61
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/40.png\",
+    \"name\": \"东风风行\",
+    \"id\": 40
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/151.png\",
+    \"name\": \"五十铃\",
+    \"id\": 151
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/114.png\",
+    \"name\": \"摩根\",
+    \"id\": 114
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/32.png\",
+    \"name\": \"DS\",
+    \"id\": 32
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/14.png\",
+    \"name\": \"北汽绅宝\",
+    \"id\": 14
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/127.png\",
+    \"name\": \"如虎\",
+    \"id\": 127
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/79.png\",
+    \"name\": \"金旅\",
+    \"id\": 79
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/56.png\",
+    \"name\": \"哈弗\",
+    \"id\": 56
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/163.png\",
+    \"name\": \"之诺\",
+    \"id\": 163
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/180.png\",
+    \"name\": \"华骐\",
+    \"id\": 180
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/154.png\",
+    \"name\": \"新凯\",
+    \"id\": 154
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/37.png\",
+    \"name\": \"东风风度\",
+    \"id\": 37
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/169.png\",
+    \"name\": \"Icona\",
+    \"id\": 169
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/148.png\",
+    \"name\": \"潍柴英致\",
+    \"id\": 148
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/31.png\",
+    \"name\": \"成功汽车\",
+    \"id\": 31
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/47.png\",
+    \"name\": \"福汽启腾\",
+    \"id\": 47
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/84.png\",
+    \"name\": \"卡威\",
+    \"id\": 84
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/143.png\",
+    \"name\": \"泰卡特\",
+    \"id\": 143
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/13.png\",
+    \"name\": \"北汽幻速\",
+    \"id\": 13
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/104.png\",
+    \"name\": \"陆地方舟\",
+    \"id\": 104
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/131.png\",
+    \"name\": \"赛麟\",
+    \"id\": 131
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/164.png\",
+    \"name\": \"知豆\",
+    \"id\": 164
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/16.png\",
+    \"name\": \"北汽新能源\",
+    \"id\": 16
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/74.png\",
+    \"name\": \"江铃集团轻汽\",
+    \"id\": 74
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/116.png\",
+    \"name\": \"南京金龙\",
+    \"id\": 116
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/87.png\",
+    \"name\": \"凯翼\",
+    \"id\": 87
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/95.png\",
+    \"name\": \"雷丁\",
+    \"id\": 95
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/88.png\",
+    \"name\": \"康迪全球鹰\",
+    \"id\": 88
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/66.png\",
+    \"name\": \"华颂\",
+    \"id\": 66
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/5.png\",
+    \"name\": \"安凯客车\",
+    \"id\": 5
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/83.png\",
+    \"name\": \"卡升\",
+    \"id\": 83
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/10.png\",
+    \"name\": \"宝沃\",
+    \"id\": 10
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/192.png\",
+    \"name\": \"御捷\",
+    \"id\": 192
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/124.png\",
+    \"name\": \"前途\",
+    \"id\": 124
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/64.png\",
+    \"name\": \"华利\",
+    \"id\": 64
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/140.png\",
+    \"name\": \"斯达泰克\",
+    \"id\": 140
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/91.png\",
+    \"name\": \"LOCAL MOTORS\",
+    \"id\": 91
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/63.png\",
+    \"name\": \"华凯\",
+    \"id\": 63
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/38.png\",
+    \"name\": \"东风风光\",
+    \"id\": 38
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/68.png\",
+    \"name\": \"华泰新能源\",
+    \"id\": 68
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/162.png\",
+    \"name\": \"驭胜\",
+    \"id\": 162
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/59.png\",
+    \"name\": \"汉腾汽车\",
+    \"id\": 59
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/142.png\",
+    \"name\": \"SWM斯威汽车\",
+    \"id\": 142
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/75.png\",
+    \"name\": \"江铃集团新能源\",
+    \"id\": 75
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/21.png\",
+    \"name\": \"比速汽车\",
+    \"id\": 21
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/172.png\",
+    \"name\": \"ARCFOX\",
+    \"id\": 172
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/188.png\",
+    \"name\": \"小鹏汽车\",
+    \"id\": 188
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/2.png\",
+    \"name\": \"ALPINA\",
+    \"id\": 2
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/183.png\",
+    \"name\": \"领克\",
+    \"id\": 183
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/176.png\",
+    \"name\": \"电咖\",
+    \"id\": 176
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/170.png\",
+    \"name\": \"WEY\",
+    \"id\": 170
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/171.png\",
+    \"name\": \"蔚来\",
+    \"id\": 171
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/194.png\",
+    \"name\": \"云度\",
+    \"id\": 194
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/184.png\",
+    \"name\": \"祺智\",
+    \"id\": 184
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/187.png\",
+    \"name\": \"威马汽车\",
+    \"id\": 187
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/175.png\",
+    \"name\": \"长安轻型车\",
+    \"id\": 175
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/186.png\",
+    \"name\": \"瑞驰新能源\",
+    \"id\": 186
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/182.png\",
+    \"name\": \"君马汽车\",
+    \"id\": 182
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/191.png\",
+    \"name\": \"宇通客车\",
+    \"id\": 191
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/174.png\",
+    \"name\": \"长安跨越\",
+    \"id\": 174
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/173.png\",
+    \"name\": \"北汽道达\",
+    \"id\": 173
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/179.png\",
+    \"name\": \"国金汽车\",
+    \"id\": 179
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/190.png\",
+    \"name\": \"鑫源\",
+    \"id\": 190
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/193.png\",
+    \"name\": \"裕路\",
+    \"id\": 193
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/185.png\",
+    \"name\": \"庆铃汽车\",
+    \"id\": 185
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/178.png\",
+    \"name\": \"广汽新能源\",
+    \"id\": 178
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/195.png\",
+    \"name\": \"云雀汽车\",
+    \"id\": 195
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/181.png\",
+    \"name\": \"捷途\",
+    \"id\": 181
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/189.png\",
+    \"name\": \"新特汽车\",
+    \"id\": 189
+  },
+  {
+    \"src\": \"https://ei.tc5u.cn/static/wxappimg/logo/177.png\",
+    \"name\": \"东风瑞泰特\",
+    \"id\": 177
+  }
+]
+  </string>
+    <string name="title_activity_choose_model">ChooseModelActivity</string>
+</resources>

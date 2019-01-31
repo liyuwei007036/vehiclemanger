@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="tc5u_vehicle_manger" />
+    <version value="1" />
+    <list>
+        <mapping class="com.tc5u.vehiclemanger.model.MapModel" />
+        <mapping class="com.tc5u.vehiclemanger.model.SearchHistory" />
+        <mapping class="com.tc5u.vehiclemanger.model.Vehicle" />
+    </list>
+</litepal>

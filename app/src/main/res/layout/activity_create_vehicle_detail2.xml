@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CreateVehicleDetail2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@id/tb_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/ToolbarPopupTheme"
+            app:theme="@style/toolbarTheme"
+            app:title="车源录入"
+            app:titleTextColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="行驶里程（万）" />
+
+            <EditText
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical|right"
+                android:hint="请填写行驶里程"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:paddingRight="28dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="新车价（万）" />
+
+            <EditText
+                android:id="@+id/new_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical|right"
+                android:hint="请填写新车价（万元）"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:paddingRight="28dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/req"
+                android:text="销售报价（万）" />
+
+            <EditText
+                android:id="@+id/sell_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical|right"
+                android:hint="请填写销售报价（万）"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:paddingRight="28dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:text="发动机号" />
+
+            <EditText
+                android:id="@+id/engine_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical|right"
+                android:hint="请填写发动机号"
+                android:inputType="number"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:paddingRight="28dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawablePadding="5dp"
+                android:text="车牌" />
+
+            <EditText
+                android:id="@+id/licence_plate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical|right"
+                android:hint="请填写车牌号码"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:paddingRight="28dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/eee" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/back"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt_shape_white"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="finish"
+        android:padding="3dp"
+        android:text="上一步"
+        android:textColor="@color/tl"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/save"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bt_shape"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="setDataToCache"
+        android:padding="3dp"
+        android:text="预览"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</RelativeLayout>
